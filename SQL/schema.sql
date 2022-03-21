@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS systemDB;
-CREATE database systemDB;
+DROP DATABASE IF EXISTS company_db;
+CREATE database company_db;
 
-USE systemDB;
+USE company_db;
 
 CREATE TABLE department (
     deptid INT NOT NULL AUTO_INCREMENT,
